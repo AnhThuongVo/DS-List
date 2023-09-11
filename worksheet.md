@@ -1,11 +1,10 @@
-# 01/31 Worksheet: ArrayLists and LinkedLists
-## Initial due date: *02/04 @5pm*
-#### accepted as on time until 02/06 @11:59pm
+# 9/11 Worksheet: ArrayLists and LinkedLists
+## Initial due date: *09/18 @11:59pm*
 
 Collaborators:
 
 Answer the below questions, and make sure that you commit to your own branch.
-When done, make a pull request and tag @irabkina.
+When done, make a pull request and tag @AnhThuongVo.
 Respond to my comments by making new commits to the same branch.
 
 ## Review
@@ -19,7 +18,7 @@ Respond to my comments by making new commits to the same branch.
 
     You can download the starter code in `MyArrayList.java` and work in Eclipse. I recommend using Github Desktop (or commandline git, if you're comfortable with it) to make updating your repo easier.
 
-    Remember to test and save often. The `main()` in `MyArrayList.java` already has some tests, although you will not pass all of them in this section (resizing the list is left for the Challenge section below). In addition to answering the questions here, you should also submit your code to [the autograder](http://autograder.cc.oxy.edu/), which will run the test cases for you.    
+    Remember to test and save often. The `main()` in `MyArrayList.java` already has some tests, although you will not pass all of them in this section (resizing the list is left for the Challenge section below). 
 a. First, we need to be able to create an MyArrayList. Find the public constructor method. What member variables will it need to set? Add those member variables at the first `FIXME`, above the method declaration.    
 _Note_: Java does not allow us to instantiate generic arrays. We can get around this by creating an `Object` array and [casting](https://www.geeksforgeeks.org/class-type-casting-in-java/) it to the generic type. For example: `T[] arr = (T[]) new Object [len];`  
 b. Fill in the missing code inside the constructor, making sure to set the member variables you just added.  
@@ -38,15 +37,14 @@ e. The next method, `get()` requires looping through the nodes to get to the cor
 
 ## Challenge
 
-Remember to submit your code to the [autograder](http://autograder.cc.oxy.edu/)!
 
 1. To complete our ArrayList implementation, we need to add two more methods: `remove()` and `resize()`.    
 a. Implement the `remove()` method, which removes the element at a given index in an MyArrayList.  
 b. The `resize()` method is a bit more complicated. The memory diagrams, below, show what we want to happen step-by-step. Implement the `resize()` method, referring to the diagrams. Note that this is a private method that does not take any arguments and does not return anything.
 
-    ![Challenge Q2](images/stage-1.png)
-    ![Challenge Q2](images/stage-2.png)
-    ![Challenge Q2](images/stage-3.png)
+    ![Challenge Q2](stage-1.png)
+    ![Challenge Q2](stage-2.png)
+    ![Challenge Q2](stage-3.png)
   
     c. Finally, update your `add()` method to make use of `resize()`. Your implementation of MyArrayList is now complete.
 
