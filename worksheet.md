@@ -1,5 +1,5 @@
-# 9/11 Worksheet: ArrayLists and LinkedLists
-## Initial due date: *09/18 @11:59pm*
+# 1/29 Worksheet: ArrayLists and LinkedLists
+## Initial due date: *2/05 @11:59pm*
 
 Collaborators:
 
